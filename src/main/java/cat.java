@@ -51,6 +51,7 @@ class Main {
         for (Cat cat : cats) {
             cat.eat(plate);
             cat.info();
+            plate.info();
         }
     }
 }
